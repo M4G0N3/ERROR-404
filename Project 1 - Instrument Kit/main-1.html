@@ -5,6 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum kit Project</title>
+
+    <style>
+
+      *
+     {
+       font-family: cursive;
+     }
+     
+     body
+     {
+       background-image: url(assets/drums.jpg);
+       height: 90vh;
+       background-color: rgb(30, 34, 39);
+       color: aliceblue;
+       font-size: 2rem;
+       display: flex; align-items: center; justify-content: center;
+     }
+     
+     span
+     {
+       color: rgb(255, 140, 0);
+     }
+     
+     .keys
+     {
+       top: 50%;
+       height: auto; width: 1500px;
+       display: flex; flex-direction: row;
+     }
+     
+     .key
+     {
+       background-color: rgba(0, 0, 0, 0.5);
+       flex-direction: column;
+       display: flex; align-items: center; justify-content: space-evenly; 
+       height: 80px; width: 90px;
+       border: 2px solid rgb(115, 13, 84); border-radius: 7px;
+       margin: auto;
+       transition: all 0.1s;
+     }
+     
+     .playing
+     {
+       transform: scale(1.1);
+       border-color: rgb(203, 9, 145); box-shadow: 0px 0px 20px 5px rgb(115, 13, 84);
+     }
+     
+     span
+     {
+       font-size: 1rem;
+     }
+     
+     </style>
+
 </head>
 <body>
 
@@ -100,58 +154,6 @@
 
 </script>
 
-<style>
-
- *
-{
-  font-family: cursive;
-}
-
-body
-{
-  background-image: url(assets/drums.jpg);
-  height: 90vh;
-  background-color: rgb(30, 34, 39);
-  color: aliceblue;
-  font-size: 2rem;
-  display: flex; align-items: center; justify-content: center;
-}
-
-span
-{
-  color: rgb(255, 140, 0);
-}
-
-.keys
-{
-  top: 50%;
-  height: auto; width: 1500px;
-  display: flex; flex-direction: row;
-}
-
-.key
-{
-  background-color: rgba(0, 0, 0, 0.5);
-  flex-direction: column;
-  display: flex; align-items: center; justify-content: space-evenly; 
-  height: 80px; width: 90px;
-  border: 2px solid rgb(115, 13, 84); border-radius: 7px;
-  margin: auto;
-  transition: all 0.1s;
-}
-
-.playing
-{
-  transform: scale(1.1);
-  border-color: rgb(203, 9, 145); box-shadow: 0px 0px 20px 5px rgb(115, 13, 84);
-}
-
-span
-{
-  font-size: 1rem;
-}
-
-</style>
 
 </body>
 </html>
