@@ -1,4 +1,4 @@
-# Portfolio Website - MagOne
+# Portfolio Website
 
 ## About the Project
 This is my personal portfolio website, showcasing my experience, skills, and projects. Built with Bootstrap, it provides a clean and responsive design, ensuring seamless user experience across devices. The website highlights my expertise as a backend-first full-stack developer with a strong foundation in JavaScript, MERN stack, and UI/UX design.
